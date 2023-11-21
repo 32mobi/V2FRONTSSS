@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Sora", sans-serif;
+  background: #f8fdff !important;
+  color: #000 !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+
+.activeButton {
+  border-bottom: 2px solid #000 !important;
+}
+
+.topbarmainBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.displayCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.displayColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.displayRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.displayWrap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.displayStart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.displayEnd {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.displaySpacebetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.displaySpacearound {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.displayAlign {
+  display: flex;
+  align-items: center;
+}
+
+.logoImg {
+  width: 90px !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #000000;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+  box-shadow: inset 0 0 20px 20px rgba(35, 35, 35, 0);
+}
+
+.MuiButtonBase-root-MuiMenuItem-root {
+  color: #414141 !important;
+  background: #fff;
+}
+.MuiButtonBase-root-MuiMenuItem-root:hover {
+  background: #a9a9a9 !important;
+}
+
+.MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-cxawbe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-cxawbe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 5px 10px 5px 10px;
+  color: #fff !important;
+}
+
+/* loading-page*/
+.loading-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+}
+
+.loading-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loading-text {
+  font-size: 20px !important;
+  margin-top: 10px !important;
+  color: #007acc !important;
+}
+.contactBox .react-tel-input .form-control {
+  color: #000 !important;
+}
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+.slick-track {
+  height: auto !important;
+}
+
+.secureBanner {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  height: 100vh;
+  background-color: rgba(50, 53, 61, 0.5960784314);
+  overflow: hidden;
+}
+
+.main-navigation {
+  width: 125px;
+  height: 125px;
+  position: relative;
+  border-radius: 100%;
+  animation: rotateFrame1 10s linear infinite;
+}
+
+.main-navigation .bgImagecir {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% + 220px);
+  animation: rotateFrame2 10s linear infinite reverse;
+}
+
+.main-navigation .bgImagecir:nth-child(2) {
+  animation-direction: reverse;
+}
+
+.main-navigation .bgcircular {
+  width: 100%;
+}
+
+.main-navigation .bgx1 {
+  animation: rotating 26s linear infinite;
+}
+
+.main-navigation .bgx2 {
+  animation: rotating 19s linear infinite;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.relatedArticles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .relatedArticles {
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 991px) {
+  .main-navigation {
+    width: 200px;
+    height: 200px;
+  }
+  .main-navigation .bgImagecir {
+    width: 100%;
+  }
+}
+@media (min-width: 600px) {
+  .css-hyum1k-MuiToolbar-root {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+@media (max-width: 767px) {
+  .slick-list {
+    width: 100vw;
+  }
+  .css-zow5z4-MuiGrid-root > .MuiGrid-item {
+    padding: 0px;
+  }
+  .css-mhc70k-MuiGrid-root > .MuiGrid-item {
+    padding: 0px !important;
+  }
+}
