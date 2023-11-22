@@ -45,10 +45,6 @@ const headersData = [
     href: "/",
   },
   {
-    label: "Products",
-    href: "/products",
-  },
-  {
     label: "Articles",
     href: "/articles",
   },
