@@ -1,0 +1,95 @@
+  .articleClass {
+    margin: 75px 0px 45px 0px;
+  }
+  
+  .articleClass h1 {
+    margin-bottom: 24px;
+  }
+  
+  .articleClass h2 {
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 27px !important;
+  }
+  
+  .articleClass img {
+    max-height: 450px;
+    height: 100%;
+    max-width: 450px !important;
+    width: 100%;
+    margin: 8px 0px;
+  }
+  
+  .articleClass p {
+    font-size: 17px;
+  }
+  
+  .articleClass p b {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 16px;
+  }
+  
+  .articleClass p span {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 16px !important;
+  }
+  
+  .articleClass p ol {
+    margin-bottom: 16px !important;
+  }
+  
+  .articleClass .primaryTable {
+    border: 1px solid;
+    width: 70%;
+  }
+  
+  .articleClass .primaryTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .articleClass .primaryTable th {
+    background: #3f58fa;
+    color: #fff;
+    font-weight: 500;
+    height: 40px;
+    font-size: 15px;
+  }
+  
+  .articleClass .primaryTable tr {
+    background: #fff;
+    height: 30px;
+  }
+  
+  .articleClass .primaryTable td {
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .articleClass {
+      margin: 80px 0px 45px 0px;
+    }
+  
+    .articleClass h1 {
+      line-height: 35px !important;
+      margin-bottom: 8px;
+    }
+  
+    .articleClass h2 {
+      line-height: 28px !important;
+      margin-bottom: 8px;
+      font-size: 18px !important;
+    }
+  
+    .articleClass p {
+      font-size: 12px;
+    }
+  
+    .articleClass span {
+      font-size: 162px;
+      font-weight: 400;
+    }
+  }
+  
